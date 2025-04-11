@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
         historial.forEach(item => {
             const li = document.createElement("li");
             li.innerHTML = `
-                <strong>${item.nombre}</strong><br>
+                Pais: ${item.nombre}<br>
                 Capital: ${item.capital}<br>
                 Moneda: ${item.moneda}<br>
                 Población: ${item.poblacion}<br>
@@ -52,4 +52,3 @@ document.addEventListener("DOMContentLoaded", () => {
         mostrarHistorial();
     }
 });
-    
