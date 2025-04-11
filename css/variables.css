@@ -1,0 +1,16 @@
+:root{
+    --color-1: #E5E5E5;
+}
+
+@font-face {
+    font-family:"Oswald-Medium";
+    src: url(../storade/font/Oswald-Medium.ttf);
+}
+@font-face {
+    font-family:"Oswald-Regular";
+    src: url(../storade/font/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family:"Oswald-Bold";
+    src: url(../storade/font/Oswald-Bold.ttf);
+}
